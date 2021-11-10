@@ -31,8 +31,8 @@ class WeatherStation():
 
 
 def main():
-    apikey = '3d3bf97fa5eec6700f1b8f5366bb200b'
-    city, country = 'Yulin', 'Taiwan'
+    apikey = 'your_api_key'
+    city, country = 'Taipei', 'Taiwan'
     weather_station = WeatherStation(owm_api_kei=apikey)
     weather_data = weather_station.get_weather_at_place(city=city, country=country)
     logging.info('weather station getting city: {}, country:{} data:{}'.format(
