@@ -12,8 +12,8 @@ def send_message(token, msg):
 
 
 def main():
-    line_token = 'YfNoheEHU9pQZzV5zd0uvFaG3XnkoTa4sxyxBn1fcHO'  # 你的line權杖
-    msg = '112334'
+    line_token = 'your_line_token'  # 你的line權杖
+    msg = ''
     status_code = send_message(line_token, msg)
     print(status_code)
 
