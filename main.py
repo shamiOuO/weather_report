@@ -3,6 +3,8 @@ from weather_message import WeatherStation
 from Line_notify import send_message
 import logging
 Day = 60*60*24 #設定多久傳一次
+
+#使用者資料
 userdatas = [{
     'owm_api_kei': 'your_api_kei',
     'Line_Token': 'your_line_token',
